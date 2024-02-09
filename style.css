@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#hero{
+    height: 100vh;
+    background-image:url(./pexels-photo-733853.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+}
+.heroheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.herodiv{
+    width: 50rem;
+    text-align: center;
+    
+}
+#hero h6{
+    font-size: 3.5rem;
+    margin: 2rem;
+}
+#hero button{
+    height: 3rem;
+    width: 13rem;
+    border-radius: 2rem;
+    margin: 2rem;
+    background-color:rgba(255, 68, 0, 0.826);
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    
+}
+
+#herotwo{
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+   height: 30rem;
+  justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(255, 68, 0, 0.826);
+}
+.herodivtwo{
+    width: 100%;
+    text-align: center;
+}
+#herotwo button{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+
+}
+#herotwo h5{
+    margin-top: 2rem;
+}
+#Servicecard{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Servicelogo{
+    width: 15rem;
+    text-align: center;
+}
+i{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgba(255, 68, 0, 0.826);
+}
+#Service .Serviceheading{
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: center;
+    
+}
+#Service{
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#imagessection{
+    margin: 0;
+    padding: 0;
+}
+#imagessection .uper, .lower{
+    display: flex;
+    justify-content: center;
+   
+}
+#imagessection img{
+    width: 30rem;
+    margin: 0;
+    padding: 0;
+}
+#downloadsec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 20rem;
+    justify-content: center;
+    background-color: rgb(52, 51, 51);
+    color: white;
+}
+#downloadsec button{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+#contact div{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+input, textarea{
+    width: 35rem;
+    margin: 0.5rem 0.5rem;
+    height: 3rem;
+}
+.submit{
+    border-radius: 2rem;
+    background-color:rgba(255, 68, 0, 0.621);
+    color: white;
+}
+#contact p{
+    width: 35rem;
+    text-align: center;
+}
+#contact{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    height: 4rem;
+    color: black;
+    background-color: rgb(205, 197, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:426px) {
+    #herodivtwo{
+      width: 100%;
+    }
+    #imagessection{
+        display: flex;
+        flex-direction: column;
+    }
+    #imagessection img{
+        width: 25rem;
+        justify-content: center;
+        align-items: center;
+      width: 100%;
+    }
+    #Servicecard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    #Service{
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    }
+    #imagessection .uper, .lower{
+        /* display: flex; */
+        /* justify-content: center; */
+       flex-direction: column;
+      height: 100%;
+
+       
+    }
+   input, textarea{
+    width: 18rem;
+    margin: 0.5rem 0.5rem;
+    height: 3rem;
+}
+#contact p{
+    width: 25rem;
+    text-align: center;
+}
+
+}
